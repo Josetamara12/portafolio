@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1WGM2DRD5D"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-1WGM2DRD5D');
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mediaqueri.css">
+  
+    <link rel="stylesheet" href=" assets/font-awesome/font-awesome/css/all.css">
+    <script src="https://kit.fontawesome.com/8df4f4125a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Jose Tamara | Frontend Developer</title>
+    <link rel="icon" type="image/ico" href="assets/favIcon/favicon1.jpg"/>
+</head>
+<body>
+    <div class="loader-wrapper" id="loader-wrapper">
+        <div class="loader" id="loader">
+            <span class="l">L</span>
+            <span class="o">o</span>
+            <span class="a">a</span>
+            <span class="d">d</span>
+            <span class="i">i</span>
+            <span class="n">n</span>
+            <span class="g">g</span>
+            <span class="d1">.</span>
+            <span class="d2">.</span>
+        </div>
+    </div>
+    <div class="container-main">
+        <div class="burbujas">
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+        </div>
+        <div class="container-full">
+            <div class="container-menu"> 
+                <nav class="menu-container">
+                    <div class="menu-picture">
+                        <img class="logoDark" src="assets/logo/LogoPersonal .png" alt="">
+                    </div>
+                    <div class="container_switch">
+                        <div class="switch" id="switch">
+                            <span><img class="ico_dark" src="assets/img/btn_dark_ligth/moon-solid.svg" alt=""></span>
+                            <span><img class="ico_ligth" src="assets/img/btn_dark_ligth/sun-solid.svg" alt=""></span>
+                        </div>
+                    </div>
+                    
+                    <button id="btn-home" class="home menu-btn">
+                        <i class="fas fa-2x fa-home mhome"></i>
+                        <span class="textmenu" data-section="menu" data-value="home">Inicio</span>
+                    </button>
+                    <button id="btn-about" class="menu-btn">
+                        <i class="fas fa-2x fa-user mhome"></i>
+                        <span class="textmenu" data-section="menu" data-value="about"><span>Sobre</span> Mí</span>
+                    </button>
+                    <button id="btn-portfolio" class="menu-btn">
+                        <i class="fas fa-2x fa-briefcase mhome"></i>
+                        <span class="textmenu" data-section="menu" data-value="portfolio">Portafolio</span>
+                    </button>
+                    <button id="btn-blog" class="menu-btn">
+                        <i class="fas fa-2x fa-id-card mhome"></i>
+                        <span class="textmenu" data-section="menu" data-value="blog">Blog</span>
+                    </button>                    
+                    <button id="btn-resumen" class="menu-btn">
+                        <i class="fas fa-2x fa-graduation-cap mhome"></i>
+                        <span class="textmenu" data-section="menu" data-value="resumen">Estudios</span>
+                    </button>
+                    <button id="btn-contact" class="menu-btn">
+                        <i class="fas fa-2x fa-mail-bulk mhome"></i>
+                        <span class="textmenu" data-section="menu" data-value="contact">Contáctame</span>
+                    </button>
+                    <div id="flags" class="flags">
+                        <div class="flags_item" data-language="es">
+                            <img class="flags_img" src="assets/icons/flag/es.svg" alt="">
+                        </div>
+                        <div class="flags_item" data-language="en">
+                            <img class="flags_img" src="assets/icons/flag/en.svg" alt="">
+                        </div>
+                    </div> 
+                </nav>
+            </div>
+            <div class="cursor"></div>
+            <div class="cursor2"></div>
+            <div class="container-header">
+                <div class="bg-img">
+                    <picture class="picture-bg"></picture>
+                </div>
+                <div class="pictureMe">
+                    <picture class="me">
+                        <section class="ventanaModal">
+                            <input type="checkbox" id="btn-modal">
+                                <label for="btn-modal" class="lbl-modal">
+                                    <img src="assets/img/Jose.jpg" id="btn-juego" alt="Imagen y o foto de Jose">
+                                </label>
+                                <div class="modal">
+                                    <div class="contenedor">
+                                        <header>¡Juguemos!</header>
+                                        <label id="close-game" for="btn-modal">X</label>
+                                        <div class="contenedor pointer">
+                                            <span id="puntos"></span>
+                                            <span id="ned"></span>
+                                            <button id="game-play" class="btn btn-primary">PLAY</button>
+                                            <span id="tiempo"></span>
+                                        </div>
+                                        <div class="contenedorGame">
+                                            <div id="player"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </section>
+                        <h1 class="name-me">Jose Tamara</h1>
+                        <h2 class="ocupation" data-section="header" data-value="ocupation">Desarrollador Web.</h2>
+                        <div class="social-media">
+                            <a href="https://github.com/Josetamara12" target="_blank"><i class="fab fa-github icongithub colorletter"></i></a>
+                            <a href="https://www.linkedin.com/in/jose-luis-tamara/" target="_blank"> <i class="fab fa-linkedin-in colorletter"></i></a>
+                        </div>
+                    </picture>
+                    <div class="footer-header">
+                        <div class="download">
+                            <div class="cvdownload">
+                                <i class="fas fa-download"></i>
+                                <a download="CV Jose Tamara" class="descv" data-section="footer-header" data-value="download" href="./assets/CV/CV-JoseTamara.pdf">Descargar CV</a>
+                            </div>
+                        </div>
+                        <div class="contact-me">
+                            <div class="contactme">
+                                <i class="fas fa-paper-plane"></i>
+                                <a class="descv" data-section="footer-header" data-value="contact" href="mailto:j.tamara1208@hotmail.com" target="_blank">Contáctame</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-information">
+                <div id="content-home" class="content open ">
+                    <div class="inside-content logo_jose">
+                        <picture class="conta-logo">
+                            <img src="assets/logo/LogoPersonal-.svg" class="logo" alt="Logo jose">
+                        </picture>
+                    </div>
+                </div>
+                <article id="content-about" class="content closed">
+                    <div class="inside-content">
+                        <div class="about-title" id="container_title">
+                            <h2 class="title" data-section="about-me" data-value="aboutme" id="title">Sobre mí</h2> 
+                        </div>
+                        <div class="text-about" class="colorletter joseletter">
+                            <p class="descriptionAboutme" data-section="about-me" data-value="description">
+                                ¿Que tal Mundo? mi nombre es <span> Jose Luis Tamara</span>, pero puedes llamarme  <span>Jose.</span> Soy un Frontend Developer en formación con más de 10 proyectos personales y una actitud constante de crecimiento. Mi experiencia con <span>HTML</span> me ha
+                                permitido crear estructuras sólidas y bien formadas en mis proyectos, mientras que mis conocimientos en <span> CSS </span> me han ayudado a darles un aspecto atractivo y
+                                profesional. Además, el uso de <span> JavaScript</span> me ha permitido añadir interacción y funcionalidad a mis proyectos.<br><br>
+                                En mis proyectos anteriores, tuve la oportunidad de trabajar en equipo y en algunos casos como líder, lo que me permitió comprender mejor los objetivos y metas
+                                del proyecto y lograr resultados más satisfactorios de manera más eficiente y efectiva<br><br>
+                                Fiel a mi valor principal: <span>#SiLoPuedesSoñarLoPuedesHacer</span>, y quiero ser parte de la comunidad que cambia al mundo, de las personas que crean tecnología, de las que siempre hemos querido ser, <span>pero sobre todo ser mi mejor versión.</span> <br><br>Herramientas que utilizo en mis Proyectos:
+                            </p>
+                            <div class="ContainerTools">
+                                <!-- <p class="toolsText">Herramientas que utilizo en mis Proyectos</p> -->
+                                <img class="logoTools tollsIcons" src="assets/tools/htmloff.png" alt="">
+                                <img class="logoCssTools tollsIcons" src="assets/tools/cssoff.png" alt="">
+                                <img class="logoJavascriptTools tollsIcons" src="./assets/tools/javascriptoff.png" alt="">
+                                <img class="logoSassTools tollsIcons" src="./assets/tools/sassoff.png" alt="">
+                                <img class="logoGitTools tollsIcons" src="./assets/tools/gitoff.png" alt="">
+                                <img class="logoGithubTools tollsIcons" src="./assets/tools/githuboff.png" alt="">
+                            </div>
+                        </div>
+                        <div class="box-information">
+                            <div class="information-aboutme">
+                                <p class="infMe" data-section="about-me" data-value="residence">Residencia: Medellin - Colombia</p>
+                                <p class="infMe1" data-section="about-me" data-value="adress">Dirección: Barrio Buenos Aires</p>
+                                <p class="infMe2" data-section="about-me" data-value="E-mail">Correo: j.tamara1208@hotmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="box-interest">
+                            <div class="interest-title">
+                                <div id="container_title" class="titleLine">
+                                    <h2 class="title interes" data-section="about-me" data-value="interests" id="title">Intereses</h2>
+                                </div>
+                                <ul class="text-about">
+                                    <div class="container_interest">
+                                        <i class="fas fa-utensils colorletter iconInterest"></i>
+                                        <p class="inte" data-section="about-me" data-value="interests1">
+                                            Una de las cosas que más disfruto es el hecho de explorar nuevos sabores gastronómicos, no es el simple hecho de comer, es disfrutar la explosión de sabores que tienes en tu paladar, que  sumado a un buen acompañante de bebida es una experiencia que no tiene precio.
+                                        </p>
+                                    </div><br>
+                                    <div class="container_interest">
+                                        <i class="fas fa-suitcase-rolling colorletter iconInterest"></i>
+                                        <p class="inte inte1" data-section="about-me" data-value="interests2">
+                                            Otro placer culposo es el viajar y conocer nuevas culturas, el agregar nuevos conocimientos y experiencias a la vida es un aprendizaje que nunca se olvida.
+                                        </p>
+                                    </div><br>
+                                    <div class="container_interest">
+                                        <i class="fas fa-video colorletter iconInterest"></i>
+                                        <p class="inte inte2" data-section="about-me" data-value="interests3">
+                                            Como soy muy visual me encantan las series y películas, puedo pasar todo un fin de semana en pijama y pidiendo comida para llevar con tal de no salir de la casa si es que estoy en modo onfire de pelis.
+                                        </p>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div><br><br>
+                    </div>
+                </article>
+
+                <article id="content-portfolio" class="content closed">
+                    <div class="inside-content">
+                        <div class="container_main" id="container_title">
+                            <h2 class="title titlePorfo" data-section="portfolio" data-value="portfolio" id="title">Proyectos</h2>
+                        </div>
+                        <div class="container_proyects">
+                            <div class="container-proyectos">
+                                
+                                <div class="card">
+                                    <div class="img_card">
+                                        <img src="assets/img/proyectos/img_cajero.png" alt="Imagen del proyecto">
+                                    </div>
+                                    <div class="description_card">
+                                        <h3 data-section="portfolio" data-value="webname1" class="namePorta">Simulador Cajero Electronico - <span>Maqueta</span></h3>
+                                        <p data-section="portfolio" data-value="description">Proyecto de escritorio que simula la funcionalidad de un cajero electronico. </p>
+                                        <p class="herramientas"> C# </p>
+                                    </div>
+                                    <div class="codigo">
+                                        <button>
+                                            <a href="https://github.com/Josetamara12/cajeAutoma.git" target="_blank">
+                                                <i class="fa-regular fa-eye"></i>
+                                                <p data-section="portfolio" data-value="btnsiew">Ver Demo</p>
+                                            </a>
+                                        </button> 
+                                        <button>
+                                            <a href="https://github.com/Josetamara12/cajeAutoma.git" target="_blank">
+                                                <i class="fab fa-github icongithub colorletter"></i>
+                                                <p class="codigo" data-section="portfolio" data-value="btncode">Ver Codigo</p>
+                                            </a>
+                                        </button> 
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="img_card">
+                                        <img src="assets/img/proyectos/img_herramienta-Salarial.png" alt="Imagen del proyecto">
+                                    </div>
+                                    <div class="description_card">
+                                        <h3 data-section="portfolio" data-value="webname2" class="namePorta">Herramienta Facturacion Salarial - <span>Maqueta</span></h3>
+                                        <p data-section="portfolio" data-value="description2">Plataforma dedicada a optimizar la gestión de nóminas. Simplificando el proceso de cálculo y emisión de pagos. Desde la administración de datos de empleados hasta la generación de reportes detallados. </p>
+                                        <p class="herramientas">C#</p>
+                                    </div>
+                                    <div class="codigo">
+                                        <button>
+                                            <a href="https://github.com/Josetamara12/HerramientaSalarial.git" target="_blank">
+                                                <i class="fa-regular fa-eye" target="_blank"></i>
+                                                <p data-section="portfolio" data-value="btnsiew">Ver Demo</p>
+                                            </a>
+                                        </button> 
+                                        <button>
+                                            <a href="https://github.com/Josetamara12/HerramientaSalarial.git" target="_blank">
+                                                <i class="fab fa-github icongithub colorletter" width="100px"></i>
+                                                <p class="codigo" data-section="portfolio" data-value="btncode">Ver Codigo</p>
+                                            </a>
+                                        </button> 
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="img_card">
+                                        <img src="assets/img/proyectos/img_ejercicios-Js.png" alt="Imagen del proyecto">
+                                    </div>
+                                    <div class="description_card">
+                                        <h3 data-section="portfolio" data-value="webname3" class="namePorta">Ejercicios en JavaScript - <span>Ejercicios</span></h3>
+                                        <p data-section="portfolio" data-value="description3">Ejercicios realizados en HTML, CSS y JS ejecutados localmente enfocados en problemas educativos.  </p>
+                                        <p class="herramientas">Html - Css - Javascript</p>
+                                    </div>
+                                    <div class="codigo">
+                                        <button>
+                                            <a href="https://github.com/Josetamara12/practicando-JavaScript.git" target="_blank">
+                                                <i class="fa-regular fa-eye"></i>
+                                                <p data-section="portfolio" data-value="btnsiew">Ver Demo</p>
+                                            </a>
+                                        </button> 
+                                        <button>
+                                            <a href="https://github.com/Josetamara12/practicando-JavaScript.git" target="_blank">
+                                                <i class="fab fa-github icongithub colorletter" width="100px"></i>
+                                                <p class="codigo" data-section="portfolio" data-value="btncode">Ver Codigo</p>
+                                            </a>
+                                        </button> 
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="img_card">
+                                        <img src="assets/img/proyectos/img_numeroSecreto.png" alt="Imagen del proyecto">
+                                    </div>
+                                    <div class="description_card">
+                                        <h3 data-section="portfolio" data-value="webname4" class="namePorta">Juego Numero Secreto, Ver1 - <span>Maqueta</span></h3>
+                                        <p data-section="portfolio" data-value="description4">Número Secreto: es un juego simple pero desafiante. Encuentra el número secreto en el menor número de intentos posible. ¡Diviértete poniendo a prueba tus habilidades de adivinanza!  </p>
+                                        <p class="herramientas">Html - Css - Javascript</p>
+                                    </div>
+                                    <div class="codigo">
+                                        <button>
+                                            <a href="https://github.com/Josetamara12/juego-NumeroSecreto.git" target="_blank">
+                                                <i class="fa-regular fa-eye"></i>
+                                                <p data-section="portfolio" data-value="btnsiew">Ver Demo</p>
+                                            </a>
+                                        </button> 
+                                        <button>
+                                            <a href="https://github.com/Josetamara12/juego-NumeroSecreto.git" target="_blank">
+                                                <i class="fab fa-github icongithub colorletter" width="100px"></i>
+                                                <p class="codigo" data-section="portfolio" data-value="btncode">Ver Codigo</p>
+                                            </a>
+                                        </button> 
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="img_card">
+                                        <img src="assets/img/proyectos/img_numeroSecreto-Final.png" alt="Imagen del proyecto">
+                                    </div>
+                                    <div class="description_card">
+                                        <h3 data-section="portfolio" data-value="webname5" class="namePorta">Juego Numero Secreto, Version Final - <span>Maqueta</span></h3>
+                                        <p data-section="portfolio" data-value="description5">En su version final, Adivina un nuevo secreto es un juego simple pero desafiante. ¡Diviértete poniendo a prueba tus habilidades de adivinanza! </p>
+                                        <p class="herramientas">Html - Css</p>
+                                    </div>
+                                    <div class="codigo">
+                                        <button>
+                                            <a href="https://github.com/Josetamara12/juego-NumeroSecretoFinal.git" target="_blank">
+                                                <i class="fa-regular fa-eye"></i>
+                                                <p data-section="portfolio" data-value="btnsiew">Ver Demo</p>
+                                            </a>
+                                        </button> 
+                                        <button>
+                                            <a href="https://github.com/Josetamara12/juego-NumeroSecretoFinal.git" target="_blank">
+                                                <i class="fab fa-github icongithub colorletter" width="100px"></i>
+                                                <p class="codigo" data-section="portfolio" data-value="btncode">Ver Codigo</p>
+                                            </a>
+                                        </button> 
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article id="content-blog" class="content closed">
+                    <div class="inside-content">
+                        <div class="about-title lineBlog" id="container_title">
+                            <h2 class="title titleBlog" data-section="blog" data-value="textBlog" id="title">Blog</h2>
+                        </div>
+                        <div class="containerFullBlog">
+                            <div class="blog"> 
+                                <a href="https://diegublog.com/mas-alla-del-comienzo-continuando-mi-viaje-en-el-desarrollo-web/" target="_blank" class="link_card" id="btn_B01" > 
+                                    <div class="card_blog">
+                                        <div class="containerImg-blog">
+                                            <img src="assets/img/Blog/post03.jpg" alt="Imagen del post">
+                                        </div>
+                                        <div class="containerText-blog">
+                                            <h3 class="date">
+                                                18/09/2022
+                                            </h3>
+                                            <h2 class="title-blog" data-section="blog" data-value="articuleText" >Más Allá del Comienzo: Continuando mi Viaje en el Desarrollo Web</h2>
+                                            <p class="text_blog" data-section="blog" data-value="text">En caso de que te hayas perdido mi última publicación, te animo a echarle un vistazo: Parte I del Post. Ahí te compartía cómo encontrar el...</p>
+                                        </div>                           
+                                    </div>
+                                </a>
+                                <a href="https://diegublog.com/el-viaje-empieza-aqui-mi-travesia-en-el-desarrollo-web-inicia/" target="_blank" class="link_card link_card1" id="btn_B01" >
+                                    <div class="card_blog">
+                                        <div class="containerImg-blog">
+                                            <img src="assets/img/Blog/post02.jpg" alt="Imagen del post">
+                                        </div>
+                                        <div class="containerText-blog">
+                                            <h3 class="date">
+                                                04/09/2023
+                                            </h3>
+                                            <h2 class="title-blog title-blog1" data-section="blog" data-value="articuleText2">El Viaje Empieza Aquí: Mi Travesía en el Desarrollo Web Inicia.</h2>
+                                            <p class="text_blog text_blog1" data-section="blog" data-value="text2">Siempre me han comentado que mi habilidad para escuchar y conectar con las personas es una característica especial que poseo. Y es cierto, tengo esa capacidad...</p>
+                                        </div> 
+                                    </div>                           
+                                </a>
+                                <a href="https://diegublog.com/superando-el-miedo-un-paso-a-la-vez/" target="_blank" class="link_card link_card2" id="btn_B01" >
+                                    <div class="card_blog">
+                                        <div class="containerImg-blog">
+                                            <img class="imgblog3" src="assets/img/Blog/post01.jpg" alt="Imagen del post">
+                                        </div>
+                                        <div class="containerText-blog">
+                                            <h3 class="date">
+                                                21/08/2023
+                                            </h3>
+                                            <h2 class="title-blog title-blog2" data-section="blog" data-value="articuleText3">Entre el Miedo y Por Qué No Es un Blog Más.  </h2>
+                                            <p class="text_blog text_blog2" data-section="blog" data-value="text3">Descubriendo la Importancia de Escribir. ¿Alguna vez has sentido esa chispa de emoción mezclada con miedo cuando te asomas al borde de lo desconocido? Hola, soy...</p>
+                                        </div> 
+                                    </div> 
+                                </a>                         
+                            </div>                            
+                        </div> 
+                    </div>
+                </article>
+
+                <article id="content-resumen" class="content closed">
+                    <div class="inside-content">
+                        <div class="text_resumen titleLineEstudios" id="container_title">
+                            <h2 class="title titleEstudios" data-section="resumen" data-value="resume" id="title">Estudios</h2>
+                        </div>
+                        <div class="container_education titleLineCursos" id="container_title">
+                            <div class="icon_text">
+                                <span class="colorletter"><i class="fas fa-university iconUniversity"></i></span>
+                                <h2 class="resumen titleCursos" data-section="resumen" data-value="educaction">Cursos</h2>
+                            </div>  
+                        </div>
+                        <div class="containerResumenAll">
+                            <div class="containerResumen">
+                                <ul>
+                                    <li class="resumen_education">
+                                        <div class="containerEduca1">
+                                            <h4 class="university">Platzi</h4>
+                                            <p class="date" data-section="resumen" data-value="date">2021 - 2023</p>                                      
+                                            <p class="where" data-section="resumen" data-value="educactionOnline">Educación En Línea</p>
+                                        </div>
+                                        <div class="containerEduca1">
+                                            <h4 class="ruta" data-section="resumen" data-value="htmlCss">HTML y CSS a Profundidad</h4>
+                                            <p class="cantidadCursos"><span class="cantidad">16 </span><span data-section="resumen" data-value="cCantidad">Cursos</span>  - <span class="horas">83 </span><span data-section="resumen" data-value="cHoras">Horas</span></p>
+                                        </div>
+                                        <button class="btnRuta">
+                                            <a href="https://platzi.com/web-frontend/?school=_escuela_escuela-web_" target="_blank" data-section="resumen1" data-value="btnRuta">Conocer Ruta</a>
+                                        </button>
+
+                                        <div class="certificate">
+                                            <a href="./estudios/certificados.html" target="_blank">
+                                                <i class="fas fa-award"></i>
+                                                <p data-section="resumen" data-value="certificates" class="certifi">Certificados</p>
+                                            </a>
+                                        </div>   
+                                    </li> 
+                                    <li class="resumen_education">
+                                        <div class="containerEduca1">
+                                            <h4 class="university">Platzi</h4>
+                                            <p class="date" data-section="resumen" data-value="date">2021 - Actualmente</p>                                      
+                                            <p class="where" data-section="resumen" data-value="educactionOnline">Educación Online</p>
+                                        </div>
+                                        <div class="containerEduca1">
+                                            <h4 class="ruta" data-section="resumen1" data-value="nameCurso">JavaScript a Profundidad</h4>
+                                            <p class="cantidadCursos"><span class="cantidad">21 </span><span data-section="resumen1" data-value="cCantidad">Cursos</span> - <span class="horas">73 </span><span data-section="resumen1" data-value="cHoras">Horas</span></p>
+                                        </div>
+                                        <button class="btnRuta">
+                                            <a href="https://platzi.com/web-javascript/?school=_escuela_escuela-web_" target="_blank" data-section="resumen1" data-value="btnRuta">Conocer Ruta</a>
+                                        </button>
+
+                                        <div class="certificate">
+                                            <a href="estudios/certificadosJavascript.html" target="_blank"><i class="fas fa-award"></i>
+                                                <p data-section="resumen" data-value="certificates" class="certifi">Certificados</p>
+                                            </a>
+                                        </div>   
+                                    </li>    
+                                    <li class="resumen_education re1">
+                                        <div class="containerEduca1">
+                                            <h4 class="university">Udemy</h4>
+                                            <p class="date" data-section="resumen" data-value="date">2021 - Actualmente</p>                                      
+                                            <p class="where" data-section="resumen" data-value="educactionOnline">Educación Online</p>
+                                        </div>
+                                        <div class="containerEduca1">
+                                            <h4 class="ruta" data-section="resumen3" data-value="nameCurso">JavaScript Moderno</h4>
+                                            <p class="cantidadCursos"><span class="cantidad">01 </span><span data-section="resumen3" data-value="cCantidad1">Curso</span> - <span class="horas">50 </span><span data-section="resumen" data-value="cHoras">Horas</span></p>
+                                        </div>
+                                        <button class="btnRuta">
+                                            <a href="https://www.udemy.com/course/crea-una-pagina-web/" target="_blank" data-section="resumen" data-value="btnRuta">Conocer curso</a>
+                                        </button>
+
+                                        <div class="certificate">
+                                            <a href="estudios/certificadosUdemy.html" target="_blank"><i class="fas fa-award"></i>
+                                                <p data-section="resumen" data-value="certificates" class="certifi">Certificados</p>
+                                            </a>
+                                        </div>   
+                                    </li>  
+                                    <li class="resumen_education re1">
+                                        <div class="containerEduca1">
+                                            <h4 class="university">Edteam</h4>
+                                            <p class="date">2019 - 2020</p>                                      
+                                            <p class="where" data-section="resumen" data-value="educactionOnline">Educación Online</p>
+                                        </div>
+                                        <div class="containerEduca1">
+                                            <h4 class="ruta" data-section="resumen4" data-value="nameCurso">Desarrollo Web</h4>
+                                            <p class="cantidadCursos"><span class="cantidad">07 </span><span data-section="resumen" data-value="cCantidad">Cursos</span> - <span class="horas">40 </span><span data-section="resumen1" data-value="cHoras">Horas</span></p>
+                                        </div>
+                                        <button class="btnRuta">
+                                            <a href="https://ed.team/" target="_blank" data-section="resumen4" data-value="btnRuta">Conocer cursos</a>
+                                        </button>
+
+                                        <div class="certificate">
+                                            <a href="estudios/certificadosEdteam.html" target="_blank"><i class="fas fa-award"></i>
+                                                <p data-section="resumen" data-value="certificates" class="certifi">Certificados</p>
+                                            </a>
+                                        </div>   
+                                    </li>      
+                                    <li class="resumen_education re1">
+                                        <div class="containerEduca1">
+                                            <h4 class="university">Google Active</h4>
+                                            <p class="date">2019</p>                                      
+                                            <p class="where" data-section="resumen" data-value="educactionOnline">Educación Online</p>          
+                                        </div>
+                                        <div class="containerEduca1">
+                                            <h4 class="ruta" data-section="resumen5" data-value="nameCurso">Introduccion Desarrollo Web I / II</h4>
+                                            <p class="cantidadCursos"><span class="cantidad">01 </span><span data-section="resumen3" data-value="cCantidad1">Curso</span> - <span class="horas">10 </span><span data-section="resumen" data-value="cHoras">Horas</span></p>
+                                        </div>
+                                        <button class="btnRuta">
+                                            <a href="https://learndigital.withgoogle.com/digitalgarage/courses" target="_blank" data-section="resumen" data-value="btnRuta">Conocer cursos</a>
+                                        </button>
+
+                                        <div class="certificate">
+                                            <a href="estudios/certificadosGoogle.html" target="_blank"><i class="fas fa-award"></i>
+                                                <p data-section="resumen" data-value="certificates" class="certifi">Certificados</p>
+                                            </a>
+                                        </div>   
+                                    </li>    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article id="content-contact" class="content closed">
+                    <div class="inside-content">
+                        <div class="inside">
+                            <div id="container_title">
+                                <h2 class="title" data-section="contactMe" data-value="contact" id="title">Escríbeme</h2>
+                            </div>
+                            <div class="mainConcta">
+                                <div class="main_btn">
+                                    <a class="btn_contact btn1" href="mailto:diegu@diegugutierrez.com" target="_blank" class="btn">Email me</a>
+                                    <a class="btn_contact btn123" href="https://github.com/diegudeveloper" target="_blank" class="btn">Github</a>&nbsp &nbsp
+                                    <a class="btn_contact btn123" href="https://www.linkedin.com/in/diegugutierrez/" class="btn" target="_blank">Linkedin</a>&nbsp &nbsp
+                                    <a class="btn_contact btn123" href="https://codepen.io/diegudeveloper" target="_blank" class="btn">Codepen</a>&nbsp
+                                    <a class="btn_contact btn12" href="https://www.behance.net/diegudeveloper" target="_blank" class="btn">Behance</a>&nbsp
+                                    <a class="btn_contact btn12" href="https://diegublog.com/" target="_blank" class="btn">Blog</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
