@@ -148,7 +148,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	const divHome = document.getElementById('content-home');
 	const divAbout = document.getElementById('content-about');
 	const divResumen = document.getElementById('content-resumen');
-	const divBlog = document.getElementById('content-blog');
 	const divPortfolio = document.getElementById('content-portfolio');
 	const divContact = document.getElementById('content-contact');
 
@@ -196,11 +195,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	btnPortfolio.addEventListener('click', () => {
 		open(btnPortfolio, divPortfolio);
 		// console.log('open', btnPortfolio, divPortfolio);
-	});
-
-	btnBlog.addEventListener('click', () => {
-		open(btnBlog, divBlog);
-		// console.log('open', btnBlog, divBlog);
 	});
 
 	btnContact.addEventListener('click', () => {
