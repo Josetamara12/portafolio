@@ -27,6 +27,7 @@ const cursor2 = document.querySelector(".cursor2");
 document.addEventListener("mousemove",function(e){
     cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
 });
+
 /*cursor*/
 
 btnswitch.addEventListener('click', () => {
@@ -56,8 +57,8 @@ btnswitch.addEventListener('click', () => {
         logoSassTools.src = 'assets/tools/sasson.png';
         logoGitTools.src = 'assets/tools/giton.png';
         logoGithubTools.src = 'assets/tools/githubon.png';
-        imagenLigth.src = 'assets/logo/Recurso35on.svg';
-        imagenDark.src = 'assets/logo/Recurso30on.png';
+        imagenLigth.src = 'assets/logo/logo33on.svg';
+        imagenDark.src = 'assets/logo/logo30on.png';
     } else {
         imagenTools.src = 'assets/tools/htmloff.png';
         logoCssTools.src = 'assets/tools/cssoff.png';
@@ -65,8 +66,8 @@ btnswitch.addEventListener('click', () => {
         logoSassTools.src = 'assets/tools/sassoff.png';
         logoGitTools.src = 'assets/tools/gitoff.png';
         logoGithubTools.src = 'assets/tools/githuboff.png';
-        imagenLigth.src = 'assets/logo/Recurso33off.svg';
-        imagenDark.src = 'assets/logo/Recurso32off.png';
+        imagenLigth.src = 'assets/logo/logo35off.svg';
+        imagenDark.src = 'assets/logo/logo32off.png';
     }
 });
 
@@ -89,8 +90,8 @@ if(localStorage.getItem('ligth') === 'true') {
 	logoSassTools.src = 'assets/tools/sasson.png';
 	logoGitTools.src = 'assets/tools/giton.png';
 	logoGithubTools.src = 'assets/tools/githubon.png';
-	imagenLigth.src = 'assets/logo/Recurso35on.svg';
-	imagenDark.src = 'assets/logo/Recurso30on.png';
+	imagenLigth.src = 'assets/logo/logo35off.svg';
+	imagenDark.src = 'assets/logo/logo30on.png';
 } else {
 	const imagenLigth = document.querySelector('.logo');
 	const imagenDark = document.querySelector('.logoDark')
@@ -107,8 +108,8 @@ if(localStorage.getItem('ligth') === 'true') {
 	logoSassTools.src = 'assets/tools/sassoff.png';
 	logoGitTools.src = 'assets/tools/gitoff.png';
 	logoGithubTools.src = 'assets/tools/githuboff.png';
-	imagenLigth.src = 'assets/logo/Recurso33off.svg';
-	imagenDark.src = 'assets/logo/Recurso32off.png';
+	imagenLigth.src = 'assets/logo/logo33on.svg';
+	imagenDark.src = 'assets/logo/logo32off.png';
 }
 
 const buttons = document.querySelectorAll('.menu-btn');
@@ -143,7 +144,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	const btnAbout = document.getElementById('btn-about');
 	const btnResumen = document.getElementById('btn-resumen');
 	const btnPortfolio = document.getElementById('btn-portfolio');
-	const btnBlog = document.getElementById('btn-blog');
 	const btnContact = document.getElementById('btn-contact');
 	const divHome = document.getElementById('content-home');
 	const divAbout = document.getElementById('content-about');
