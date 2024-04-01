@@ -21,13 +21,13 @@
       "aboutme":"Sobre Mí",
       "name": "Nombre",
       
-      "description": "¿Que tal Mundo? mi nombre es <span>Diego Gutiérrez</span>, pero puedes llamarme <span>Diegu</span>. Soy un Frontend Developer en formación con más de 20 proyectos personales y una actitud constante de crecimiento. Mi experiencia con <span>HTML</span> me ha permitido crear estructuras sólidas y bien formadas en mis proyectos, mientras que mis conocimientos en <span>CSS</span> me han ayudado a darles un aspecto atractivo y profesional. Además, el uso de <span>JavaScript</span> me ha permitido añadir interacción y funcionalidad a mis proyectos. <br><br>En mis proyectos anteriores, tuve la oportunidad de trabajar en equipo y en algunos casos como líder, lo que me permitió comprender mejor los objetivos y metas del proyecto y lograr resultados más satisfactorios de manera más eficiente y efectiva. <br><br>Fiel a mi valor principal: <span>#HazQueSuceda</span>, y quiero ser parte de la comunidad que cambia al mundo, de las personas que crean tecnología, de las que siempre hemos querido ser, <span>pero sobre todo ser mi mejor versión</span>. <br><br>Herramientas que utilizo en mis Proyectos:",
-      "residence": "Residencia: Malta",
-      "adress": "Dirección: Sliema",
-      "E-mail": "Correo: diegudeveloper@gmail.com",
+      "description": "¿Que tal Mundo? mi nombre es <span>Jose Luis Tamara</span>, pero puedes llamarme <span>Jose</span>. Soy un Frontend Developer en formación con más de 10 proyectos personales y una actitud constante de crecimiento. Mi experiencia con <span>HTML</span> me ha permitido crear estructuras sólidas y bien formadas en mis proyectos, mientras que mis conocimientos en <span>CSS</span> me han ayudado a darles un aspecto atractivo y profesional. Además, el uso de <span>JavaScript</span> me ha permitido añadir interacción y funcionalidad a mis proyectos. <br><br>En mis proyectos anteriores, tuve la oportunidad de trabajar en equipo y en algunos casos como líder, lo que me permitió comprender mejor los objetivos y metas del proyecto y lograr resultados más satisfactorios de manera más eficiente y efectiva. <br><br>Fiel a mi valor principal: <span>#HazQueSuceda</span>, y quiero ser parte de la comunidad que cambia al mundo, de las personas que crean tecnología, de las que siempre hemos querido ser, <span>pero sobre todo ser mi mejor versión</span>. <br><br>Herramientas que utilizo en mis Proyectos:",
+      "residence": "Residencia: Medellin - Colombia",
+      "adress": "Dirección: Barrio Buenos Aires",
+      "E-mail": "Correo: j.tamara1208@hotmail.com",
       "interests": "Intereses", 
-      "interests1": "Una de las cosas que más disfruto es el hecho de explorar nuevos sabores gastronómicos, no es el simple hecho de comer, es disfrutar la explosión de sabores que tienes en tu paladar, que  sumado a un buen acompañante de bebida es una experiencia que no tiene precio.",
-      "interests2": "Otro placer culposo es el viajar y conocer nuevas culturas en compañía de mi esposa, el agregar nuevos conocimientos y experiencias a nuestras vidas es un aprendizaje que nunca se olvida.",
+      "interests1": "Una de las cosas que más disfruto es el hecho de explorar nuevos sabores gastronómicos, no es el simple hecho de comer, es disfrutar la explosión de sabores que tienes en tu paladar, que sumado a un buen acompañante de bebida es una experiencia que no tiene precio.",
+      "interests2": "Otro placer culposo es el viajar y conocer nuevas culturas, el agregar nuevos conocimientos y experiencias a la vida es un aprendizaje que nunca se olvida.",
       "interests3": "Como soy muy visual me encantan las series y películas, puedo pasar todo un fin de semana en pijama y pidiendo comida para llevar con tal de no salir de la casa si es que estoy en modo onfire de pelis."
    },
 
@@ -36,11 +36,7 @@
       "educaction": "Cursos",
       "date": "2021 - Actualmente",
       "educactionOnline": "Educacíon En Línea",
-      "htmlCss": "HTML y CSS a Profundidad",
-      "cCantidad": "Cursos",
-      "cHoras": "Horas",
-      "certificates": "Certificados",
-      "btnRuta": "Conocer Curso"
+      "cCantidad": "Cursos" 
    },
 
    "resumen1": {
