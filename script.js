@@ -25,6 +25,9 @@ const cursor2 = document.querySelector(".cursor2");
 
 /*cursor*/
 document.addEventListener("mousemove",function(e){
+    cursor.style.cssText = cursor.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+});
+document.addEventListener("mousemove",function(e){
     cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
 });
 
