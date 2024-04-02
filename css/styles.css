@@ -4,7 +4,6 @@
 @import "../css/aboutme.css";
 @import "../css/resumen.css";
 @import "../css/portafolio.css";
-@import "../css/blog.css";
 @import "../css/contact.css";
 @import "../css/burbujas.css";
 @import "../css/juego.css";
@@ -217,14 +216,6 @@ body.ligth .titleCursos {
 body.ligth #content-portfolio::-webkit-scrollbar-thumb  {
     background: var(--color-secundary);
 }
-#content-blog{
-    width: 100%;
-    height: 100%;
-	background-color: var(--color-bg);
-    overflow-y: scroll;
-    margin-bottom: 2rem;
-    transition: 1s ease all;
-}
 #content-contact{
     width: 100%;
     height: 100%;
@@ -239,16 +230,6 @@ body.ligth #content-portfolio::-webkit-scrollbar-thumb  {
     border-radius: 5px;
 }
 body.ligth #content-contact::-webkit-scrollbar-thumb  {
-    background: var(--color-secundary);
-}
-#content-blog::-webkit-scrollbar {
-    width: 5px;
-}
-#content-blog::-webkit-scrollbar-thumb {
-    background-color: var( --color-font-dark);
-    border-radius: 5px;
-}
-body.ligth #content-blog::-webkit-scrollbar-thumb  {
     background: var(--color-secundary);
 }
 body.ligth .menu-container {
@@ -276,9 +257,6 @@ body.ligth #content-resumen {
     background:#fff;
 }
 body.ligth #content-portfolio {
-    background:#fff;
-}
-body.ligth #content-blog {
     background:#fff;
 }
 body.ligth #content-contact {
@@ -369,18 +347,6 @@ body.ligth .namePorta {
 }
 body.ligth .codigo a {
     color: var(--color-bg);
-}
-body.ligth .containerImg-blog {
-    background: var(--color-font);
-}
-body.ligth .containerText-blog {
-    background: var(--color-font);
-}
-body.ligth .containerText-blog .text_blog {
-    color: var(--color-bg);
-}
-body.ligth .containerText-blog .title-blog {
-    color: var(--color-primary);
 }
 body.ligth .main_btn .btn_contact {
     color: var(--color-bg);

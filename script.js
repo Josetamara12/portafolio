@@ -46,28 +46,34 @@ btnswitch.addEventListener('click', () => {
 	const imagenTools = document.querySelector('.logoTools');
 	const logoCssTools = document.querySelector('.logoCssTools');
 	const logoJavascriptTools = document.querySelector('.logoJavascriptTools');
-	const logoSassTools = document.querySelector('.logoSassTools');
+	const logoPhpTools = document.querySelector('.logoPhpTools');
 	const logoGitTools = document.querySelector('.logoGitTools');
 	const logoGithubTools = document.querySelector('.logoGithubTools');
+	const logoSqlTools = document.querySelector('.logoSqlTools');
+	const logoBootstrapTools = document.querySelector('.logoBootstrapTools');
 
 	if (document.body.classList.contains('ligth')) {
         imagenTools.src = 'assets/tools/htmlon.png';
         logoCssTools.src = 'assets/tools/csson.png';
         logoJavascriptTools.src = 'assets/tools/javascripton.png';
-        logoSassTools.src = 'assets/tools/sasson.png';
+        logoPhpTools.src = 'assets/tools/phpon.png';
         logoGitTools.src = 'assets/tools/giton.png';
         logoGithubTools.src = 'assets/tools/githubon.png';
         imagenLigth.src = 'assets/logo/logo33on.svg';
         imagenDark.src = 'assets/logo/logo30on.png';
+		logoSqlTools.src = 'assets/tools/sqlon.png';
+		logoBootstrapTools.src = 'assets/tools/bootstrapon.png';
     } else {
         imagenTools.src = 'assets/tools/htmloff.png';
         logoCssTools.src = 'assets/tools/cssoff.png';
         logoJavascriptTools.src = 'assets/tools/javascriptoff.png';
-        logoSassTools.src = 'assets/tools/sassoff.png';
+        logoPhpTools.src = 'assets/tools/phpoff.png';
         logoGitTools.src = 'assets/tools/gitoff.png';
         logoGithubTools.src = 'assets/tools/githuboff.png';
         imagenLigth.src = 'assets/logo/logo35off.svg';
         imagenDark.src = 'assets/logo/logo32off.png';
+		logoSqlTools.src = 'assets/tools/sqloff.png';
+		logoBootstrapTools.src = 'assets/tools/bootstrapoff.png';
     }
 });
 
@@ -80,36 +86,45 @@ if(localStorage.getItem('ligth') === 'true') {
 	const imagenTools = document.querySelector('.logoTools');
 	const logoCssTools = document.querySelector('.logoCssTools');
 	const logoJavascriptTools = document.querySelector('.logoJavascriptTools');
-	const logoSassTools = document.querySelector('.logoSassTools');
+	const logoPhpTools = document.querySelector('.logoPhpTools');
 	const logoGitTools = document.querySelector('.logoGitTools');
 	const logoGithubTools = document.querySelector('.logoGithubTools');
+	const logoSqlTools = document.querySelector('.logoSqlTools');
+	const logoBootstrapTools = document.querySelector('.logoBootstrapTools');
+
 
 	imagenTools.src = 'assets/tools/htmlon.png';
 	logoCssTools.src = 'assets/tools/csson.png';
 	logoJavascriptTools.src = 'assets/tools/javascripton.png';
-	logoSassTools.src = 'assets/tools/sasson.png';
+	logoPhpTools.src = 'assets/tools/phpon.png';
 	logoGitTools.src = 'assets/tools/giton.png';
 	logoGithubTools.src = 'assets/tools/githubon.png';
 	imagenLigth.src = 'assets/logo/logo35off.svg';
 	imagenDark.src = 'assets/logo/logo30on.png';
+	logoSqlTools.src = 'assets/tools/sqlon.png'
+	logoBootstrapTools.src = 'assets/tools/bootstrapon.png';
 } else {
 	const imagenLigth = document.querySelector('.logo');
 	const imagenDark = document.querySelector('.logoDark')
 	const imagenTools = document.querySelector('.logoTools');
 	const logoCssTools = document.querySelector('.logoCssTools');
 	const logoJavascriptTools = document.querySelector('.logoJavascriptTools');
-	const logoSassTools = document.querySelector('.logoSassTools');
+	const logoPhpTools = document.querySelector('.logoPhpTools');
 	const logoGitTools = document.querySelector('.logoGitTools');
 	const logoGithubTools = document.querySelector('.logoGithubTools');
+	const logoSqlTools = document.querySelector('.logoSqlTools');
+	const logoBootstrapTools = document.querySelector('.logoBootstrapTools');
 
 	imagenTools.src = 'assets/tools/htmloff.png';
 	logoCssTools.src = 'assets/tools/cssoff.png';
 	logoJavascriptTools.src = 'assets/tools/javascriptoff.png';
-	logoSassTools.src = 'assets/tools/sassoff.png';
+	logoPhpTools.src = 'assets/tools/phpoff.png';
 	logoGitTools.src = 'assets/tools/gitoff.png';
 	logoGithubTools.src = 'assets/tools/githuboff.png';
 	imagenLigth.src = 'assets/logo/logo33on.svg';
 	imagenDark.src = 'assets/logo/logo32off.png';
+	logoSqlTools.src = 'assets/tools/sqloff.png';
+	logoBootstrapTools.src = 'assets/tools/bootstrapoff.png';
 }
 
 const buttons = document.querySelectorAll('.menu-btn');
