@@ -23,7 +23,8 @@ const btnswitch = document.querySelector('#switch');
 const cursor = document.querySelector(".cursor");
 const cursor2 = document.querySelector(".cursor2");
 
-/*cursor*/
+
+/*cursor --- evento de img en inicio*/
 document.addEventListener("mousemove",function(e){
     cursor.style.cssText = cursor.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
 });

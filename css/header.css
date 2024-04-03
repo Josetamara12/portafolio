@@ -23,23 +23,32 @@
   transition: ease 10s all;
 }
 @keyframes animate {
-  20% {
+  16% {
     background-image: url(../assets/img/001.webp);
     background-size: cover;
   }
-  40% {
-    background-image: url(../assets/img/001.webp);
-    background-size: cover;
-  }
-  60% {
+  32% {
     background-image: url(../assets/img/002.webp);
+    background-size: cover;
+  }
+  48% {
+    background-image: url(../assets/img/003.webp);
     background-size: cover;
     transition: ease-out 50s all;
   }
-  100% {
-    background-image: url(../assets/img/002.webp);
+  64% {
+    background-image: url(../assets/img/004.webp);
     background-size: cover;
   }
+  80% {
+    background-image: url(../assets/img/005.webp);
+    background-size: cover;
+  }
+  100% {
+    background-image: url(../assets/img/005.webp);
+    background-size: cover;
+  }
+
 }
 
 .picture-bg {
