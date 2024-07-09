@@ -1,75 +1,64 @@
+/* Contenedor principal */
 .container-header {
-  width: 100%;
-  max-width: 480px;
-  height: 100%;
-  max-height: 674px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 3px;
-  margin-left: 8px;
-  position: relative;
-  top: 0;
-  left: 0;
-  -webkit-box-shadow: -16px -16px 5px 0px rgba(251,176,59,0.2);
-  -moz-box-shadow: -16px -16px 5px 0px rgba(251,176,59,0.2);
-  box-shadow: -16px -16px 5px 0px rgba(251,176,59,0.2);
-}
-.bg-img {
-  width: 100%;
-  height: 50%;
-  background-image: url(../assets/img/002.webp);
-  background-size: cover;
-  background-position: center;
-  animation: animate 10s infinite;
-  transition: ease 10s all;
-}
-@keyframes animate {
-  20% {
-    background-image: url(../assets/img/001.webp);
-    background-size: cover;
-  }
-  40% {
-    background-image: url(../assets/img/001.webp);
-    background-size: cover;
-  }
-  60% {
-    background-image: url(../assets/img/002.webp);
-    background-size: cover;
-    transition: ease-out 50s all;
-  }
-  100% {
-    background-image: url(../assets/img/002.webp);
-    background-size: cover;
-  }
+  width: 100%; /* ancho */
+  max-width: 480px; /* ancho maximo */
+  height: 100%; /* altura */
+  max-height: 674px; /* altura maxima */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* bordes */
+  border-radius: 3px; /* bordes y radio */
+  margin-left: 8px; /* margen */
+  position: relative; /* posicion */
+  top: 0; /* no hay desplazamiento hacia abajo */
+  left: 0; /* no hay desplazamiento a la izquierda*/
+  -webkit-box-shadow: -16px -16px 5px 0px rgba(251,176,59,0.2); /* sombra caja webkit */
+  -moz-box-shadow: -16px -16px 5px 0px rgba(251,176,59,0.2); /* sombra caja mozilla */ 
+  box-shadow: -16px -16px 5px 0px rgba(251,176,59,0.2); /* sombra caja estandar */
 }
 
+/* Estilo para la imagen de fondo de la portada */
+.bg-img {
+  width: 100%; /* ancho */
+  height: 50%; /* altura */
+  background-image: url(../assets/img/001.webp); /* imagen */
+  background-size: cover; /* imagen cubre todo el contenedor */
+  background-position: center; /* imagen centrada */
+}
+
+/* Estilo para el contenedor de imagen de portada */
 .picture-bg {
-  width: 100%;
-  height: 100%;
-}
+  width: 100%; /* ancho */
+  height: 100%;/* altura */
+} 
+
+/* Clase para el contenedor principal de la imagen */
 .pictureMe {
-  width: 100%;
-  height: 50%;
-  text-align: center;
-  background-color: var(--color-bg);
-  transition: 0.3s ease all;
+  width: 100%; /* ancho */
+  height: 50%; /* altura */
+  text-align: center; /* centra el contenido horizontalmente */
+  background-color: var(--color-bg); /* color de fondo */
+  transition: 0.3s ease all; /* transicion suave de 0.3s */
 }
+
+/* Clase para el elemento de la imagen */
 .me {
-  height: 80%;
-  display: block;
-  position: relative;
+  height: 80%; /* ancho */
+  display: block; /* se comporta como elemento bloque */
+  position: relative; /* establece un contexto de posicion para los elementos */
 }
+
+/* Pseudo-elemento ::after para agregar un decorado detras del elemento .me */
 .me::after {
-  content: " ";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 20%;
-  bottom: 95%;
-  left: 0;
-  background-color: var(--color-bg);
-  z-index: 0;
-  clip-path: polygon(50% 80%, 100% 0, 100% 80%, 50% 80%, 0 80%, 0 0);
-  transition: 0.3s ease all;
+  content: " "; /* crea un elemento vacio */
+  display: block; /* elemento de bloque */
+  position: absolute; /* posiciona el elemento de forma absoluta */
+  width: 100%; /* ocupa el 100% del ancho */
+  height: 20%; /* ocupa el 20% del alto*/
+  bottom: 95%; /* posiciona el 95% desde la parte inferior */
+  left: 0; /* alinea al borde izquierdo */
+  background-color: var(--color-bg); /* establece color de fondo */
+  z-index: 0; /* coloca el elemento detras */
+  clip-path: polygon(50% 80%, 100% 0, 100% 80%, 50% 80%, 0 80%, 0 0); /* corta los elementos */
+  transition: 0.3s ease all; /* transicion */
 }
 .name-me {
   width: 100%;
@@ -101,7 +90,9 @@
   margin-left: 15px;
   border: none;
   color: #eeeeee;
+
 }
+
 .pictureMe .me img {
   width: 130px;
   height: 130px;
@@ -117,6 +108,11 @@
   cursor: pointer;
   background-color: #000;
   border: 0.2px solid var(--color-primary);
+  transition: trasform 0.3s ease;
+}
+
+.pictureMe .me img:hover {
+  transform: scale(1.6);
 }
 
 /*modal*/
